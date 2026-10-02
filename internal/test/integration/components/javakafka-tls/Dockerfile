@@ -1,4 +1,4 @@
-FROM maven:3.9.12-eclipse-temurin-21@sha256:c3c9d3ac4ce8431a3995c0318b8d390f448e693dd4fabc16e9b68d2e1f3d7b46 AS javabuilder
+FROM maven:3.10.0-eclipse-temurin-21@sha256:4c892edc136f819d71397deee8cc0073de01bb3f8e0421fe79e603f021e59364 AS javabuilder
 
 # Install Maven
 ARG USER_HOME_DIR="/cache"
